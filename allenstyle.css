@@ -338,6 +338,10 @@
 .buto{
     position: absolute; 
     margin-top: 20%;
-    left: 19%;
-    width: 50px; 
+    color: rgb(17, 17, 75);
+    left: 29%;
+    width: 50%;
+}
+.buto button{
+    padding: 10px 15px; 
 }

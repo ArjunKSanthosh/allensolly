@@ -18,8 +18,6 @@
     color: white;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-
-
 }
 .more{
     width: 40%;
@@ -29,7 +27,6 @@
     display: flex;
     border-right: 1px solid white;
     align-items: center;
-    
 }
 .del{
     font-size: 10px;
@@ -50,11 +47,9 @@
     font-size: 13px;
     align-items: center;
     margin-right: 2%;
-    
 }
 .right li{
     padding-left: 10px;
-
 }
 .right img{
     width: 30px;
@@ -111,12 +106,10 @@
     margin-left: 20px;
 }
 .cont{
-
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-  
 }
 .searchim{
     display: flex;
@@ -143,8 +136,8 @@
     height: 40%;
 }
 .adi img{
-    width: 50%;
-    height: 50%;
+    width: 39%;
+    height: 45%;
 }
 .right li:hover{
     color: rgb(170, 137, 52);
@@ -275,11 +268,11 @@
     justify-content: space-evenly;
 }
 .card1{
-    width: 80%;
+    width: 85%;
     display: flex;
     justify-content: space-between;
     overflow-x: scroll;
-    margin-left: 7%;
+    margin-left: 6.5%;
    
     /* overflow-y: hidden; */
 }
@@ -297,4 +290,54 @@
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
+}
+.moonlit{
+    width: 83%;
+    margin-left: 7.8%;
+    height: 60vh;
+    background-color: aqua;
+    display: flex;
+    position: relative;
+    margin-top: 5%;
+}
+.shirt{
+    width: 35%;
+    height: 60vh;
+    background-image: url(./images/shirt.jpeg);
+    object-fit: cover;
+    background-color: red;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.allenl{
+    width: 65%;
+    height: 60vh;
+    background-color:white;
+}
+.allenl img{
+    position: absolute;
+    right: 0;
+}
+.box{
+    border-radius: 10px;
+    width: 48%;
+    height: 60%;
+    position: absolute;
+    background-color:rgb(240, 237, 229);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.box h2{
+    position: absolute;
+    margin-top: 10%;
+    left: 27%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.buto{
+    position: absolute; 
+    margin-top: 20%;
+    left: 19%;
+    width: 50px; 
 }

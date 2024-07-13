@@ -64,10 +64,14 @@
     border-right: 1px solid white;
 }
 .nav{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
     width: 100%;
     height: 10vh;
     display: flex;
     justify-content: space-between;
+    background-color: white;
 }
 .left2{
     width:60%;
@@ -83,7 +87,6 @@
 .allen img{
     width: 100%;
     height: 100%;
-
 }
 .navbar{
     width: 80%;
@@ -194,7 +197,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 35vh;
+    height: 27vh;
     background-color: rgb(209, 199, 128);
 }
 .content{
@@ -223,4 +226,75 @@
     border: 1px dashed black;
     background-color: rgb(218, 210, 45);
 }
-
+.qcode img{
+    height: 22vh;
+    margin-top: 10px;
+}
+.qcode p{
+    font-size: 12px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logdiv{
+    height: 20vh;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+}
+.logdiv h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:28px;
+    color: rgb(17, 17, 75);
+    padding-top: 15px;
+    padding-bottom: 13px;
+}
+.logdiv p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.scroll1{
+    width: 100%;
+    height: 60vh;
+    /* background-color: aqua; */
+}
+.schead{
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(17, 17, 75);
+}
+.schead li{
+    list-style-type: none;
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.schead ul{
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card1{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+    margin-left: 7%;
+   
+    /* overflow-y: hidden; */
+}
+.card1im{
+    position: relative;
+    width: 40rem;
+    padding: 20px;
+}
+.p1{
+    position: absolute;
+    bottom: 11%;
+    margin-left:30% ;
+    color: rgb(17, 17, 75);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}

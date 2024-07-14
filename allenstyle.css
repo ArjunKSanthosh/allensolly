@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    overflow-x: hidden;
+}
 .head{
     background-color: black;
     width: 100%;
@@ -59,6 +62,7 @@
     border-right: 1px solid white;
 }
 .nav{
+    z-index: 5;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -280,24 +284,39 @@
     width: 40rem;
     padding: 20px;
 }
-/* .p1{
-    position: absolute;
-    bottom: 11%;
-    margin-left:30% ;
-    color: rgb(17, 17, 75);
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
-} */
 .moonlit{
     width: 83%;
     margin-left: 7.8%;
     height: 60vh;
     background-color: aqua;
     display: flex;
-    /* position: relative; */
+    position: relative;
     margin-top: 15%;
+}
+.buto{
+    width:40%;
+    margin-top: 20%;
+    margin-left: 27%;
+}
+/* .buto button{
+    width: 200px;
+    height: 25px;
+} */
+.box4 h4{
+    position: absolute;
+    top: 13%;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 30%;
+    font-size: 28px;
+}
+.box4{
+    position: absolute ;
+    width: 45%;
+    height: 65%;
+    background-color: rgb(250, 235, 215);
+    left: 32%;
+    top: 22%;
 }
 .shirt{
     width: 35%;
@@ -321,8 +340,9 @@
 .trending{
     width: 100%;
     margin-top: 5%;
-    height: 100vh;
+    height: 95vh;
     background-color: rgb(17, 17, 75);
+    
 }
 .trending h2{
     color: yellow;
@@ -348,19 +368,519 @@
 .scroll2{
     margin-top: 20px;
     width: 100%;
-    height:75vh ;
+    height:70vh ;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     overflow-x: scroll;
+    overflow-y:hidden;
 }
 .card2{
     width: 100%;
     height:90%;
-    margin-left: 11%;
+    margin-left: 5%;
 }
 .card2 img{
 
     height:50vh;
  
+}
+.card2 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+}
+.card2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 10px;
+    line-height: 4.5vh;
+}
+.r{
+    align-items: center;
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.radio1{
+    background-color: black;
+    width: 15px;
+    height: 15px;
+    border: 2px solid white ;
+    border-radius: 100%;
+}
+.radio2{
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border: 2px solid black ;
+    border-radius: 100%;
+}
+.radio3{
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border: 2px solid black ;
+    border-radius: 100%;
+}
+.radio4{
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border: 2px solid black ;
+    border-radius: 100%; 
+}
+.radio5{
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border: 2px solid black ;
+    border-radius: 100%;
+}
+.radio6{
+    background-color: rgb(175, 175, 247);
+    width: 15px;
+    height: 15px;
+    border: 2px solid black ;
+    border-radius: 100%;
+}
+.radio7{
+    background-color: yellow;
+    width: 15px;
+    height: 15px;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+.radio8{
+    background-color: skyblue;
+    width: 15px;
+    height: 15px;
+    border: 2px solid black ;
+    border-radius: 100%;
+}
+.radio9{
+    background-color: blue;
+    width: 15px;
+    height: 15px;
+    border: 2px solid white ;
+    border-radius: 100%;
+}
+.radio10{
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border: 2px solid black ;
+    border-radius: 100%;
+}
+.newarri{
+    width: 100%;
+    height: 80vh;
+    margin-top: 5%;
+    display: flex;
+    justify-content:space-between ;
+}
+.neww{
+    width: 40%;
+    height: 75vh;
+    margin-left: 10%;
+    background-image: url(./images/AS.jpeg);
+    object-fit: cover;
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin-right: 30px;
+    position: relative;
+}
+.new1{
+    width: 50%;
+    height: 100%;
+}
+.new1 .card2 p{
+    color:black ;
+}
+.new1 .card2 h3{
+    color: black;
+}
+.scroll2{
+    height: 75vh;
+}
+.newarri .scroll2{
+    padding-left: 10px;   
+}
+.newfoot{
+    position: absolute;
+    height: 15vh;
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(29, 29, 80);
+    border-radius: 0 0 10px 10px;
+}
+.newfoot img{
+    position: absolute;
+    width: 10%;
+    height:50%;
+    top: 10px;
+    left: 15%;
+}
+.newfoot h2{
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 30px;
+    left: 30%; 
+}
+.newfoot p{
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 60px;
+    left: 35%; 
+    font-size: 12px;
+    text-decoration: 1px underline orange;
+}
+.logdiv2 img{
+    margin-left: 6%;
+}
+.blackf{
+    margin-top: 5%;
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background-color: aqua;
+    background-image: url(./images/blackfade.jpeg);
+}
+.yellob{
+    position: absolute;
+    width: 40%;
+    height: 45vh;
+    border-radius: 10px;
+    background-color: rgb(239, 224, 22);
+    left: 50%;
+    top: 10%;
+}
+.yellob img{
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    width: 11%;
+    height: 15%;
+}
+.yellob h3{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(17, 17, 75);
+    left: 20%;
+    top: 23%;
+    font-size: 14px;
+    font-weight: bold;
+}
+.yellob h2{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(17, 17, 75);
+    left: 13%;
+    top: 37%;
+    font-size: 28px;
+    font-weight: bold;
+}
+.yellob h4{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(17, 17, 75);
+    left: 13%;
+    top: 47%;
+    font-size: 28px;
+    font-weight: lighter;
+}
+.yellob p{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(17, 17, 75);
+    left: 13%;
+    top: 60%;
+    font-size: 15px;
+    font-weight: lighter;  
+}
+.yellob button{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(17, 17, 75);
+    color: rgb(239, 224, 22);
+    left: 30%;
+    padding: 10px 50px;
+    top: 75%;
+    font-size: 14px;
+    font-weight: lighter;  
+}
+.yello2{
+    position: relative;
+    margin-top: 3%;
+    width: 100%;
+    height: 12vh;
+    background-color: rgb(17, 17, 75);
+}
+.yello2 img{
+    position: absolute;
+    margin-left: 23%;
+    margin-top: 20px;
+    width: 46px;
+    height: 46px;
+}
+.yello2 h2{
+    position: absolute;
+    left: 27%;
+    top: 23px;
+    font-size: 20px; 
+    color: rgb(193, 185, 33);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.yello2 h3{
+    font-weight: lighter;
+    position: absolute;
+    left: 41%;
+    top: 23px;
+    font-size: 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.yello2 p{
+    position: absolute;
+    left: 27%;
+    top: 49px;
+    font-size: 13px; 
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+.yello2 button{
+    position: absolute;
+    left: 67%;
+    top: 20px;
+    font-weight: bolder;
+    padding: 15px 25px;
+    color:rgb(17, 17, 75);
+    background-color:rgb(239, 224, 22) ;
+}
+.samcon2{
+    margin-top: 50px;
+    background-color: rgb(233, 233, 4);
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sam1{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.isr img{
+    width: 145px;
+    height: 145px;
+
+}
+.tsr{
+    color: rgb(12, 12, 97);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.find{
+    margin-left: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: .5;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.boxie{
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 15px 125px 15px 5px;
+    border-radius: 5px;
+    height: 15px;
+}
+.boxie h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rookie{
+    text-decoration: underline red;
+    text-underline-offset: 5px;
+    height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: .5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0 0 15px;
+}
+.slogo1{
+    width: 10%;
+    height: 100%;
+    
+}
+.slogo1 img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.view button{
+    font-weight: bolder;
+    padding: 20px 60px;
+    margin-top: 3%;
+    margin-left: 41%;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(12, 12, 97) ;
+}
+.symbols{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 4%;
+    border-bottom: 1px solid bisque;
+}
+.sym img {
+    width: 55px;
+    height: 55px;
+}
+.sym p{
+    text-align: center;
+  font-size: 10px;
+}
+.samcon{
+    width: 100%;
+    height: 38vh;
+    background-color: rgb(45, 131, 102);
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+.sam{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+.help{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+ }
+ .me{
+     margin-top: 10px;
+ }
+ .me h5{
+     padding-top: 5px;
+ }
+ .helpi{
+     width: 35%;
+     height: 100%;
+     background-color: rgb(255, 255, 255);
+  }
+  .samcon h5{
+    font-weight: lighter;
+  }
+  .helpi img{
+     width: 40px;
+     height: 40px;
+  }
+  .ikk{
+     display: flex;
+     justify-content: left;
+     align-items: center;
+     font-size: 14px;
+  }
+  .ikk img{
+    width: 30px;
+    height: 30px;
+  }
+  .errrr h4{
+     margin-left: 50px;
+     font-size: 12px;
+  }
+ .errrr{
+    margin-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+ }
+ .errrr h6{
+    font-size: 13px;
+    margin-right: 200px;
+    color: rgb(212, 206, 206);
+ }
+ .social{
+     margin-top: 20px;
+     display: flex;
+ }
+ .sr{
+     margin-top: 20px;
+     margin-right: 25px;
+     font-size: 12px;
+ }
+ .social ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+ }
+ .social li{
+ padding-left: 20px;
+ margin-top: 15px;
+ }
+ .social img{
+     width: 30px;
+     height: 30px;
+ }
+ .samcon h5{
+    color: rgb(150, 142, 142);
+ }
+.mlast{
+    width: 100%;
+    height: 232vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.last{
+    width: 90%;
+    height: 98%;
+    text-align: justify;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.last h3{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin:15px 0px;
+    font-size: 18px;
+}
+.last h4{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin:15px 0px;
+    font-size: 16px;
+}
+.ldiv{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+.footer{
+    margin-top: 10px;
+    width: 100%;
+    height: 1vh;
+    background: linear-gradient(90deg,green,blue,black,rgb(249, 16, 148),red,orange,yellow);
 }

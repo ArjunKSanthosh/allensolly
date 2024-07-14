@@ -277,11 +277,10 @@
     /* overflow-y: hidden; */
 }
 .card1im{
-    position: relative;
     width: 40rem;
     padding: 20px;
 }
-.p1{
+/* .p1{
     position: absolute;
     bottom: 11%;
     margin-left:30% ;
@@ -290,15 +289,15 @@
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
-}
+} */
 .moonlit{
     width: 83%;
     margin-left: 7.8%;
     height: 60vh;
     background-color: aqua;
     display: flex;
-    position: relative;
-    margin-top: 5%;
+    /* position: relative; */
+    margin-top: 15%;
 }
 .shirt{
     width: 35%;
@@ -315,33 +314,53 @@
     background-color:white;
 }
 .allenl img{
-    position: absolute;
+    /* position: absolute; */
     right: 0;
+    margin-left: 70%;
 }
-.box{
-    border-radius: 10px;
-    width: 48%;
-    height: 60%;
-    position: absolute;
-    background-color:rgb(240, 237, 229);
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+.trending{
+    width: 100%;
+    margin-top: 5%;
+    height: 100vh;
+    background-color: rgb(17, 17, 75);
 }
-.box h2{
-    position: absolute;
-    margin-top: 10%;
-    left: 27%;
+.trending h2{
+    color: yellow;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    text-align: center;
+    padding-top: 5%;
 }
-.buto{
-    position: absolute; 
-    margin-top: 20%;
-    color: rgb(17, 17, 75);
-    left: 29%;
-    width: 50%;
+.all{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 40px;
 }
-.buto button{
-    padding: 10px 15px; 
+.all ul{
+
+    display: flex;
+    justify-content: space-between;
+}
+.all li{
+    list-style-type: none;
+}
+.scroll2{
+    margin-top: 20px;
+    width: 100%;
+    height:75vh ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-x: scroll;
+}
+.card2{
+    width: 100%;
+    height:90%;
+    margin-left: 11%;
+}
+.card2 img{
+
+    height:50vh;
+ 
 }
